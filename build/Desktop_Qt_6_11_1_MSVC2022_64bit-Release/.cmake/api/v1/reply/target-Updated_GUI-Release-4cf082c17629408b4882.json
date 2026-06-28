@@ -1,0 +1,915 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Updated_GUI.exe"
+		},
+		{
+			"path" : "Updated_GUI.pdb"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"target_link_options",
+			"_qt_internal_finalize_windows_app",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"qt_finalize_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"_find_package",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake",
+			"build/Desktop_Qt_6_11_1_MSVC2022_64bit-Release/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1033,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 687,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 614,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1041,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 898,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 835,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 128,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 12
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 234,
+				"parent" : 13
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 14
+			},
+			{
+				"file" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 55,
+				"parent" : 16
+			},
+			{
+				"file" : 4,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 40,
+				"parent" : 16
+			},
+			{
+				"file" : 11,
+				"parent" : 20
+			},
+			{
+				"command" : 16,
+				"file" : 11,
+				"line" : 50,
+				"parent" : 21
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 142,
+				"parent" : 22
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 24
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 252,
+				"parent" : 25
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 26
+			},
+			{
+				"file" : 8,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 55,
+				"parent" : 28
+			},
+			{
+				"file" : 7,
+				"parent" : 29
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 234,
+				"parent" : 13
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 32
+			},
+			{
+				"file" : 13,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 55,
+				"parent" : 34
+			},
+			{
+				"file" : 12,
+				"parent" : 35
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 61,
+				"parent" : 36
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 688,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 40,
+				"parent" : 34
+			},
+			{
+				"file" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 16,
+				"file" : 16,
+				"line" : 50,
+				"parent" : 40
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 142,
+				"parent" : 41
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 42
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 43
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 252,
+				"parent" : 44
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 45
+			},
+			{
+				"file" : 15,
+				"parent" : 46
+			},
+			{
+				"command" : 12,
+				"file" : 15,
+				"line" : 57,
+				"parent" : 47
+			},
+			{
+				"file" : 14,
+				"parent" : 48
+			},
+			{
+				"command" : 11,
+				"file" : 14,
+				"line" : 61,
+				"parent" : 49
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 142,
+				"parent" : 41
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 51
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 52
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 252,
+				"parent" : 53
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 910,
+				"parent" : 54
+			},
+			{
+				"file" : 18,
+				"parent" : 55
+			},
+			{
+				"command" : 12,
+				"file" : 18,
+				"line" : 55,
+				"parent" : 56
+			},
+			{
+				"file" : 17,
+				"parent" : 57
+			},
+			{
+				"command" : 11,
+				"file" : 17,
+				"line" : 61,
+				"parent" : 58
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 3,
+				"line" : 126,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-permissive-"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-utf-8"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 60,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "QT_MULTIMEDIAWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "QT_MULTIMEDIA_LIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/ASL_PROJECT/Updated_GUI/build/Desktop_Qt_6_11_1_MSVC2022_64bit-Release/Updated_GUI_autogen/include"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "C:/vcpkg/installed/x64-windows/include/onnxruntime"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include/QtCore"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include/QtGui"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/msvc2022_64/include/QtMultimediaWidgets"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/vcpkg/installed/x64-windows/include/opencv4"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					38,
+					38,
+					11
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "Updated_GUI_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Updated_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Updated_GUI::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/MANIFEST:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\Qt\\6.11.1\\msvc2022_64\\lib\\Qt6MultimediaWidgets.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_highgui4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_ml4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_objdetect4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_photo4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_stitching4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_video4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_videoio4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\onnxruntime.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "ole32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "oleaut32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "sapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\Qt\\6.11.1\\msvc2022_64\\lib\\Qt6Widgets.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\Qt\\6.11.1\\msvc2022_64\\lib\\Qt6Multimedia.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "C:\\Qt\\6.11.1\\msvc2022_64\\lib\\Qt6Network.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "C:\\Qt\\6.11.1\\msvc2022_64\\lib\\Qt6Gui.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "C:\\Qt\\6.11.1\\msvc2022_64\\lib\\Qt6Core.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "mpr.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "userenv.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "d3d11.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "dxgi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "dxguid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "d3d12.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_imgcodecs4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_calib3d4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_dnn4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_features2d4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_flann4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_imgproc4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_core4.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Updated_GUI",
+	"nameOnDisk" : "Updated_GUI.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				12
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				14,
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MSVC2022_64bit-Release/Updated_GUI_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "TitleBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "TitleBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "CameraFeed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "CameraFeed.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "LiveTextBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "LiveTextBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "SignLibraryPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "SignLibraryPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "ASLBackend.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "ASLBackend.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "build/Desktop_Qt_6_11_1_MSVC2022_64bit-Release/Updated_GUI.exe.manifest",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MSVC2022_64bit-Release/Updated_GUI_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MSVC2022_64bit-Release/Updated_GUI_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}
